@@ -89,7 +89,6 @@ function createGalleryItems(images) {
 
 galleryContainer.innerHTML = createGalleryItems(images);
 
-// Ініціалізація SimpleLightbox після додавання до DOM
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionPosition: 'bottom',
